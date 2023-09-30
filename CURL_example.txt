@@ -1,0 +1,25 @@
+# LIVE PREDICTIONS
+
+curl -X 'POST' \
+'http://api.simplifytrading.ai/predict' \
+-H 'accept: application/json' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <YOUR API KEY>' \
+-d '{
+"ModelName": "<AI MODEL NAME>",
+"TradeType": "LONG"
+}'
+
+
+# BACKTEST
+
+curl -X 'POST' \
+'http://api.simplifytrading.ai/backtest' \
+-H 'accept: application/json' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <YOUR API KEY>' \
+-d '{
+"ModelName": "<AI MODEL NAME>",
+"TradeType": "LONG",
+"EntryTime": "07/06/2023 10:00:00 +00:00"
+}'
