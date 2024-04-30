@@ -1,7 +1,7 @@
 # LIVE PREDICTIONS
 
 curl -X 'POST' \
-'http://api.simplifytrading.ai/predict' \
+'https://api.simplifytrading.ai/predict' \
 -H 'accept: application/json' \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <YOUR API KEY>' \
@@ -14,7 +14,7 @@ curl -X 'POST' \
 # BACKTEST
 
 curl -X 'POST' \
-'http://api.simplifytrading.ai/backtest' \
+'https://api.simplifytrading.ai/backtest' \
 -H 'accept: application/json' \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <YOUR API KEY>' \
