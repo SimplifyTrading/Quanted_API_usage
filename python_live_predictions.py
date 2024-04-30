@@ -1,7 +1,7 @@
 import requests
 
 
-url = "http://api.simplifytrading.ai/predict"
+url = "https://api.simplifytrading.ai/predict"
 headers = {
   'Content-Type': 'application/json',
   'Authorization': 'Bearer <YOUR API KEY>'
