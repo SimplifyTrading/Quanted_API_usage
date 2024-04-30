@@ -1,7 +1,7 @@
 import requests
 
 
-url = "http://api.simplifytrading.ai/backtest"
+url = "https://api.simplifytrading.ai/backtest"
 headers = {
   'Content-Type': 'application/json',
   'Authorization': 'Bearer <YOUR API KEY>'
